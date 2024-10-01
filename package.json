@@ -1,0 +1,23 @@
+{
+  "name": "@scalar/awesome-openapi",
+  "author": "Scalar (https://github.com/scalar)",
+  "homepage": "https://github.com/scalar/scalar",
+  "keywords": [
+    "awesome",
+    "openapi",
+    "swagger"
+  ],
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "version": "0.1.0",
+  "description": "A list of awesome OpenAPI resources",
+  "scripts": {
+    "build": "vite-node ./scripts/build.ts && pnpm prettier --write ."
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.4",
+    "prettier": "^3.3.3",
+    "vite-node": "^2.1.1"
+  }
+}
